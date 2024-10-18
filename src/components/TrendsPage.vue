@@ -14,7 +14,7 @@
     <img src="/img/trends9.png" alt="Trends Image" />
     <img src="/img/trends10.png" alt="Trends Image" />
     <img src="/img/trends11.png" alt="Trends Image" />
-    
+
     
 </template>
 
@@ -35,6 +35,7 @@ export default {
   position: absolute;
   width: 50px;
   height: 50px;
+  right: 5%;
   margin: auto;
   background: white;
   border: none;
