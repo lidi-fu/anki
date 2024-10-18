@@ -34,8 +34,7 @@ export default {
   position: absolute;
   width: 50px;
   height: 50px;
-  top: 250px;
-  right: 30px;
+  margin: auto;
   background: white;
   border: none;
   border-radius: 50%;
