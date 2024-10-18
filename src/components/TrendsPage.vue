@@ -15,6 +15,7 @@
     <img src="/img/trends10.png" alt="Trends Image" />
     <img src="/img/trends11.png" alt="Trends Image" />
     
+    
 </template>
 
 <script>
