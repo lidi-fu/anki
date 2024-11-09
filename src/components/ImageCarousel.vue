@@ -85,7 +85,7 @@
   .current-image {
     position: relative;
     z-index: 2;
-    width: 50%;
+    width: 42%;
     padding-left: 40px;
     padding-top: 50px;
   }

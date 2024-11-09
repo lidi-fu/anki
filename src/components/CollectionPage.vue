@@ -61,37 +61,37 @@ export default {
 
 <style>
 .custom-carousel-1 .current-image {
-    padding-top: 100px;
-    padding-left: 18%;
+    padding-top: 50px;
+    padding-left: 25%;
 }
 
 .custom-carousel-2 .current-image {
+    padding-top: 50px;
     padding-left: 25%;
-    padding-top: 80px;
 }
 
 .custom-carousel-3 .current-image {
-    padding-left: 18%;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-left: 25%;
 }
 
 .custom-carousel-4 .current-image {
-    padding-left: 18%;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-left: 25%;
 }
 
 .custom-carousel-5 .current-image {
+    padding-top: 50px;
     padding-left: 25%;
-    padding-top: 80px;
 }
 
 .custom-carousel-6 .current-image {
-    padding-left: 18%;
-    padding-top: 80px;
+    padding-top: 50px;
+    padding-left: 25%;
 }
 
 .custom-carousel-7 .current-image {
-    padding-left: 18%;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-left: 25%;
 }
 </style>
