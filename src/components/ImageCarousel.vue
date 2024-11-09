@@ -3,10 +3,10 @@
       <img :src="backgroundImage" alt="Background Image" class="background-image" />
       <div class="pic_button">
         <img :src="currentImage" alt="Collection Image" class="current-image" />
-      <div class="buttons">
-        <img src="/img/previous.svg" alt="Previous" class="button prev-button" @click="prevImage" />
-        <img src="/img/next.svg" alt="Next" class="button next-button" @click="nextImage" />
-      </div>
+        <div class="buttons">
+          <img src="/img/previous.svg" alt="Previous" class="button prev-button" @click="prevImage" />
+          <img src="/img/next.svg" alt="Next" class="button next-button" @click="nextImage" />
+        </div>
       </div>
     </div>
   </template>
@@ -69,7 +69,7 @@
   .pic_button {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    height: 100%;
   }
 
   .background-image {
@@ -85,17 +85,19 @@
   .current-image {
     position: relative;
     z-index: 2;
-    width: 55%;
-    padding-left: 20px;
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 50px;
   }
   
   .buttons {
     position: absolute;
     bottom: 15%;
-    left: 35%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 100px;
+    left: 25%;
   }
   
   .button {
