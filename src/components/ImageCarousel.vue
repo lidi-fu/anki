@@ -61,7 +61,7 @@
   .image-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh + 50px);
     display: flex;
     align-items: center;
   }
@@ -86,8 +86,8 @@
     position: relative;
     z-index: 2;
     width: 42%;
-    padding-left: 40px;
-    padding-top: 50px;
+    padding-left: 25%;
+    padding-top: 100px;
   }
   
   .buttons {

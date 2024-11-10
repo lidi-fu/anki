@@ -60,7 +60,7 @@ export default {
 </script>
 
 <style>
-.custom-carousel-1 .current-image {
+/* .custom-carousel-1 .current-image {
     padding-top: 50px;
     padding-left: 25%;
 }
@@ -93,5 +93,5 @@ export default {
 .custom-carousel-7 .current-image {
     padding-top: 50px;
     padding-left: 25%;
-}
+} */
 </style>
